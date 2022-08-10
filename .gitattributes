@@ -1,0 +1,6 @@
+packages/bin/linux/fift filter=lfs diff=lfs merge=lfs -text
+packages/bin/linux/func filter=lfs diff=lfs merge=lfs -text
+packages/bin/macos/fift filter=lfs diff=lfs merge=lfs -text
+packages/bin/macos/func filter=lfs diff=lfs merge=lfs -text
+packages/bin/macos/fift-arm64 filter=lfs diff=lfs merge=lfs -text
+packages/bin/macos/func-arm64 filter=lfs diff=lfs merge=lfs -text
