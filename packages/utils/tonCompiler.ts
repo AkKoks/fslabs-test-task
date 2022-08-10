@@ -30,6 +30,10 @@ const platformPathMap = new Map<string, BinPath>([
 
 let keyPlatform = (platform + '_' + arch);
 
+if (!platformPathMap.has(keyPlatform)) {
+    throw("No available ton compilers for current platform: " + keyPlatform);
+}
+
 const funcPath = path.resolve(__dirname, '..', 'bin', ... platformPathMap.get(keyPlatform)!.func);
 const fiftPath = path.resolve(__dirname, '..', 'bin', ... platformPathMap.get(keyPlatform)!.fift);
 const fiftLibPath = path.resolve(__dirname, '..', 'bin', 'fiftlib');
