@@ -6,6 +6,9 @@
   "author": "Alexey Kokinos <akkokinos@gmail.com>",
   "license": "MIT",
   "private": "true",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/bn.js": "^5.1.0",
     "@types/jest": "^28.1.4",
